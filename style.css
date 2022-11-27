@@ -1,0 +1,309 @@
+#topbar {
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#right-items {
+    margin-right: 20px;
+}
+
+#right-items button {
+    background-color: #C1995B;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 30px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+#left-items {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left-items h6 {
+    width: 40px;
+    margin-left: 50px;
+}
+
+span {
+    margin: auto 20px;
+}
+
+/* ------------------------------------------------------ */
+
+#search-bar {
+    width: 100%;
+    height: 70px;
+    background-color: #00455A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar div {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto 15px;
+}
+
+#search-bar div input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#search-bar div input ::placeholder {
+    padding-left: 5px;
+}
+
+#search-bar div button {
+    width: 120px;
+    background-color: #C1995B;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ------------------------------ */
+#main-header {
+    background-image: url('./assests/main-header.png');
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+#main-column {
+    width: 600px;
+    height: 250px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-column h1 {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+}
+
+#main-column p {
+    color: white;
+}
+
+#main-column div button {
+    background-color: #C1995B;
+    color: white;
+    height: 25px;
+    border: none;
+    outline: none;
+}
+
+#main-column div div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-column div div p {
+    margin: auto 0px;
+    color: white;
+}
+
+/* --------------------- */
+
+#child-header {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#child-header div {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#child-header h3 {
+    margin-bottom: 0px;
+}
+
+#child-header button {
+    background-color: #C1995B;
+    border: none;
+    outline: none;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* ----------------------- */
+#container-one {
+    background-image: url("./assests/Royal-wharf.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    position: relative;
+
+}
+
+#container-two {
+    background-image: url("./assests/Godmans-feild.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    position: relative;
+
+}
+
+#container-three {
+    background-image: url("./assests/smithfeild-square.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    position: relative;
+
+}
+
+.text-container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #00455A;
+    position: absolute;
+    top: 900px;
+
+
+}
+
+.text-container div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.text-container button {
+    height: 30px;
+    background-color: #C1995B;
+    text-align: center;
+    border: none;
+    outline: none;
+
+    position: relative;
+    top: -50px;
+    right: 100px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+
+}
+
+.text-container p {
+    width: 80%;
+    color: white;
+}
+
+.text-container h1 {
+    color: white;
+}
+
+/* -------------------------------- */
+#wrapper {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper h1 {
+    margin-bottom: 0px;
+}
+
+#wrapper button {
+    height: 30px;
+    background-color: #C1995B;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* ------------------------- */
+#carousel {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#carousel div {
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#carousel h1{
+    font-size: 45px;
+}
+
+.img {
+    width: 150px;
+    height: 40px;
+    margin: auto 20px
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    margin: auto 20px
+}
+/* ------------------------------- */
